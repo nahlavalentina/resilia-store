@@ -1,0 +1,65 @@
+.container {
+  background-color: var(--grey);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.mainBox {
+  background-color: var(--black);
+  color: var(--white);
+  box-sizing: border-box;
+  position: absolute;
+  width: 50%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  left: 41px;
+  top: 124px;
+  border: 1px solid #222222;
+  border-radius: 30px;
+  font-family: "Monda", sans-serif;
+}
+
+.mainText {
+  color: var(--primary);
+  font-size: 9vh;
+  width: 90%;
+  text-align: center;
+}
+
+.lamp {
+  position: absolute;
+  width: 377px;
+  height: 540px;
+  left: 789px;
+  top: 107px;
+
+  background: #cccccc;
+  border-radius: 15px;
+}
+
+.allCards{
+  display: flex;
+  width: 110%;
+  color: var(--white);
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35px;
+  padding-bottom: 40px;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.slogan {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
